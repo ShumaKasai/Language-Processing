@@ -5,12 +5,12 @@ import collections
 with open(r"data\new_test.txt") as reader:
     content = reader.read()
 
-# 置換
+# 並び替え
 content = content.lower()
 content = re.sub(r"[^a-z]","",content)
-c = collections.Counter(content)
+abc_count = collections.Counter(content)
+print(abc_count)
 
 # 書き出し
 #with open(r"data\count_test.txt", 'w') as writer:
 #    writer.write(abc_dict)
-print(c.most_common())
