@@ -4,7 +4,7 @@ with open(r"data\test.txt") as reader:
 
 # 置換
 content = content.lower()
-#content = 
+#content = a
 
 # 書き出し
 with open(r"data\new_test.txt", 'w') as writer:
