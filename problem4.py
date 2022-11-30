@@ -4,7 +4,6 @@ import re, collections, random
 with open(r"data\test.txt") as reader:
     content = reader.read()
 
-# 並び替え
 content = content.lower()
 content = re.sub(r"[^a-z]","",content)
 abc_all = len(content)
