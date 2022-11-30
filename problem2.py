@@ -1,7 +1,7 @@
 import re, collections
 
 # 読み込み
-with open(r"data\new_test.txt") as reader:
+with open(r"data\test.txt") as reader:
     content = reader.read()
 
 # 並び替え
