@@ -1,5 +1,4 @@
-import re
-import collections
+import re, collections
 
 # 読み込み
 with open(r"data\new_test.txt") as reader:
