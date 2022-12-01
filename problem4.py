@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2022 Shuma Kasai
+# SPDX-License-Indentifier: BSD-3-Clause
 import re, collections, random
 
 # 読み込み
